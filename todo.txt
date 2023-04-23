@@ -1,0 +1,93 @@
+Incrementals are about incrementing quantities.
+
+Factorio is about 'automation' but it's really about setting up and organizing logistics for a system. Without space, can a Factorio be created?
+
+This distinction is being made because incrementals are already mostly automated. This is the idle aspect.
+
+So, previously, I've tried to resolve this by creating connections between the buttons. So when you click on one button, you can program it to do other stuff. This became too fiddly.
+
+I saw someone else do a conveyer belt type system where it's a line of things that are done.
+
+But I think an interesting approach would be planets and you have to send shipments, either automated or manually, every <x> amount of time. So, on a particular planet, there's certain resources, you create your system then you go somewhere else and the factorio aspect becomes implemented by managing your network of shipments.
+
+Thematically, it doesn't have to be planets, it could be islands. It could be whatever.
+
+Maybe the best way to do this is you have a large space ship and you're extracting resources from planets as you go by. 
+
+An interesting idea would be the initial time to travel to a plent from your mothership when discovering it is pretty low but it gets higher and higher. This is because your ship is traveling away from it and is dropping shuttles as it goes by. This would create more investment in your colonies and defocus on your mothership.
+
+An interesting design challenge is making it to where if a player runs out of resources, they are still able to continue - albeit at a slower rate.
+
+Another idea I had was maybe cannibalizing the mothership to create stuff, which could prevent it from being able to slow down or respond in some kind of way.
+
+Another idea was automating the building of certain things, like you can create a factory that create mining bots as long as its supplied.
+
+TO DO
+design a resource and infrastructure system that are thematically and ludonarratively cohesive and compelling.
+
+Each area has a primary and secondary resource. All resources are available on all planets (mostly at a slow pace) but the primary and secondary resources give a particularly high rate. Primary resources spawn with a modifier 10-20. Secondary 5-10. And all other resources are .5 to .01.
+
+
+QUESTIONS 
+Is it possible to completely mine a planet?
+
+
+Infrastructure:
+    Mining equipment
+    Shuttles - to ferry resources to adn from planets and back and forth to the mothership
+    research facilities - to unlock new technology
+    fuel refineries
+    power plants
+
+
+
+Alright, so going by Factorio as a general guide which has about 200 recipes, we will include at least 20.
+    coal - carbon source (maybe another?)    
+    iron ore        
+    copper ore
+    neurotium - research resource
+    uranium
+    silica
+    iron plate
+        10 iron ore (smelter)
+    steel plate 
+        10 iron plates (smelter)
+    copper plate    
+        10 copper ore
+
+    mining bot
+        100 iron plates
+        10 copper plates
+    shuttles 
+        1000 iron
+        100 copper
+        100 steel
+        10,000 capacity
+    research station
+    silicon - made with silica and silicon
+        100 silica
+        30 coal        
+    smelter
+        1000 steel 
+        1000 copper
+    cpu
+        100 silicon
+        10 copper
+    warehouse
+        10,000 iron
+        100,000 capacity
+    construction bot
+        10,000 steel
+        1,000 copper
+    uranium refinery
+    plutonium
+    nuclear power plant
+    coal power plant
+    solar power plant
+
+
+03/30/23
+4.8 hours in and I'm way behind. I'm currently at a point where I should be 3 hours in. 5 hours in and I should already be mostly finished. So I'm pretty far behind. At this rate, I'm not sure if I'll be have time to implement logistics between planets.
+
+
+test
